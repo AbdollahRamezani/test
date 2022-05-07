@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            body
+            {
+                margin: 0;
+            }
+            #row{
+                width: 100%;
+                background-color: bisque;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            #child
+            {
+                width: 23%;
+                height: 45%;
+                position: relative;
+                display: inline-block;
+                margin: 10px;
+                margin: auto;
+                box-sizing: border-box;
+                display: flex;
+                flex-wrap: wrap;
+
+
+            }
+            #child img{
+                width: 40%;
+                height:40%;
+                border-radius: 100%;
+                display: inline-block;
+                position: relative;
+                margin: auto;
+            }
+            #child h1,#child h3{
+                text-align: center;
+                margin: auto;
+                display: inline-block;
+            }
+
+            @media screen and (max-width: 800px)
+            {
+                #row{
+                    width: 50%;
+                }
+                #child{
+                    width: 100%;
+                    margin: 5px;
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                }
+        </style>
+    </head>
+    <body>
+        <div id="row">
+            <div id="child"> <img src="johnney.jpg"></div>
+            <div id="child"> <img src="rebecca.jpg"></div>
+            <div id="child"> <img src="jan.jpg"></div>
+            <div id="child"> <img src="kai.jpg"></div>
+        </div>
+    </body>
+</html>
